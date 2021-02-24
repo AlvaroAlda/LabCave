@@ -147,15 +147,6 @@ public class GameFlowManager : MonoBehaviour
 
     void Update()
     {
-        ///BORRAR
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            print("PLAYERPREFBSDELETED");
-
-            PlayerPrefs.DeleteKey("BestTime");
-        }
-        ///
-
         //Asigna las monedas al texto
         coinsTextinMenu.text = karts[0].temporalCoins.ToString();
 
